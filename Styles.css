@@ -1,0 +1,39 @@
+html {
+    font-size: 70%;
+    font-family: Sans-serif, Verdana;
+    text-align: center;
+}
+
+#title {
+    font-size: 60px;
+    color: white;
+}
+
+* {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+
+body {
+    background-color: #000000bb;
+}
+
+input {
+    border: 0;
+    height: 30px;
+    width: 35rem;
+    transition: all 200ms ease;
+    padding: 0 calc(4rem * 0.5);
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+}
+
+button {
+    border: 0;
+    height: 30px;
+    width: 7rem;
+    padding: 0 calc(2rem * 0.3);
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+    cursor: pointer;
+    background: white;
+    color: black;
+}

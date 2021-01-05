@@ -8,6 +8,8 @@
     <meta name="author" content="Ammar Magomadov">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="Styles.css">
+
     <title>
         GitHub Visualizer
     </title>
@@ -18,12 +20,11 @@
 
 <body>
     <div>
-        <h1>GitHub Visualizer</h1>
+        <h1 id="title">GitHub Visualizer</h1>
         <form>
-            <label for="username">Enter GitHub Username</label><br>
-            <input id="username" type="text">
+            <input id="search" type="search" placeholder="Username..." />
+            <button type="submit">Search</button>
         </form>
-        <button onclick>Find!</button>
     </div>
 </body>
 
