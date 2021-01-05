@@ -8,26 +8,29 @@
     <meta name="author" content="Ammar Magomadov">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>
         GitHub Visualizer
     </title>
 
-    <script src=https://d3js.org/d3.v6.min.js></script>
-    <script src="App.js" defer></script>
 </head>
 
 <body>
     <h1 id="title">GitHub Visualizer</h1>
+
     <div>
-        <form>
-            <input id="search" type="search" placeholder="Username..." />
-            <input id="token" type="text" placeholder="Auth Token (Optional)..." />
-            <button onclick="handleInput()">Search</button>
-        </form>
+        <input id="user" type="text" placeholder="Username..." />
+        <button onclick="handleInput()">Search</button>
     </div>
 
+    <div class="container">
+        <canvas id="doughnutChart"></canvas>
+    </div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="app.js" defer></script>
 </body>
 
 </html>
