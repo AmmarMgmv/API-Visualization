@@ -21,10 +21,9 @@ body {
 input {
     border: 0;
     height: 30px;
-    width: 35rem;
+    width: 25rem;
     transition: all 200ms ease;
     padding: 0 calc(4rem * 0.5);
-    box-shadow: 0 0 1rem rgb(0, 0, 0);
 }
 
 button {
@@ -32,8 +31,7 @@ button {
     height: 30px;
     width: 7rem;
     padding: 0 calc(2rem * 0.3);
-    box-shadow: 0 0 1rem rgb(0, 0, 0);
     cursor: pointer;
     background: white;
-    color: black;
+    color: rgb(0, 0, 0);
 }
